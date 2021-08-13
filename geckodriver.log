@@ -1,0 +1,33 @@
+1622182700138	geckodriver	INFO	Listening on 127.0.0.1:9010
+1622182786612	geckodriver	INFO	Listening on 127.0.0.1:9025
+1622182969609	geckodriver	INFO	Listening on 127.0.0.1:9142
+1622182972661	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\91889\\AppData\\Local\\Temp\\rust_mozprofileuO0iJi"
+console.error: Enterprise Policies: 
+  Unknown policy: QuicAllowed
+1622182973456	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1622182978279	Marionette	INFO	Listening on port 9151
+1622182978509	Marionette	WARN	TLS certificate errors will be ignored for this session
+1622182990419	Marionette	WARN	TimedPromise timed out after 5000 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:237:19
+TimedPromise@chrome://marionette/content/sync.js:222:10
+GeckoDriver.prototype.minimizeWindow@chrome://marionette/content/driver.js:2500:11
+[Child 17172, MediaDecoderStateMachine #1] WARNING: Decoder=165db9bc400 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp:366
+[Child 17172, MediaDecoderStateMachine #1] WARNING: Decoder=165db9bc400 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006) - static MP4Metadata::ResultAndByteBuffer __cdecl mozilla::MP4Metadata::Metadata(mozilla::ByteStream *): Cannot parse metadata: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp:3478
+[Child 17172, MediaDecoderStateMachine #1] WARNING: Decoder=165d6d1c800 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp:366
+[Child 17172, MediaDecoderStateMachine #1] WARNING: Decoder=165d6d1c800 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006) - static MP4Metadata::ResultAndByteBuffer __cdecl mozilla::MP4Metadata::Metadata(mozilla::ByteStream *): Cannot parse metadata: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp:3478
+[Child 17172, MediaDecoderStateMachine #1] WARNING: Decoder=165db8f7400 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp:366
+[Child 17172, MediaDecoderStateMachine #1] WARNING: Decoder=165db8f7400 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006) - static MP4Metadata::ResultAndByteBuffer __cdecl mozilla::MP4Metadata::Metadata(mozilla::ByteStream *): Cannot parse metadata: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp:3478
+1622192296984	Marionette	INFO	Stopped listening on port 9151
+1625662595767	geckodriver	INFO	Listening on 127.0.0.1:6158
+1625662598822	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\91889\\AppData\\Local\\Temp\\rust_mozprofileCfXA7A"
+console.error: Enterprise Policies: 
+  Unknown policy: QuicAllowed
+1625662600034	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\91889\\AppData\\Local\\Temp\\rust_mozprofileCfXA7A\\search.json.mozlz4", (void 0)))
+1625662603725	Marionette	INFO	Listening on port 6171
+1625662604172	Marionette	WARN	TLS certificate errors will be ignored for this session
+1625662605990	Marionette	INFO	Stopped listening on port 6171
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
